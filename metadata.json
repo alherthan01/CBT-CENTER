@@ -1,0 +1,8 @@
+{
+  "name": "Copy of AUSU CBT System",
+  "description": "A comprehensive Computer Based Test system for Al'Istiqama University Sumaila, featuring secure examinations, result management, and AI-powered study assistance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
