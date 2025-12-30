@@ -99,7 +99,10 @@ export const MOCK_EXAMS: Exam[] = [
       'Total time: 15 minutes',
       'Ensure you answer all questions',
       'Do not refresh the page during exam'
-    ]
+    ],
+    // Fix: Added missing properties to satisfy Exam type
+    status: 'live',
+    ownerId: 'system'
   },
   {
     id: 'exam_mat101',
@@ -129,6 +132,9 @@ export const MOCK_EXAMS: Exam[] = [
       'Answer all questions',
       'Time limit: 60 minutes',
       'Use calculator where allowed'
-    ]
+    ],
+    // Fix: Added missing properties to satisfy Exam type
+    status: 'live',
+    ownerId: 'system'
   }
 ];

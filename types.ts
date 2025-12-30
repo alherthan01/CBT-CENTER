@@ -22,6 +22,8 @@ export interface Question {
   marks: number;
 }
 
+export type ExamStatus = 'draft' | 'pending' | 'live' | 'archived';
+
 export interface Exam {
   id: string;
   code: string;
@@ -32,6 +34,8 @@ export interface Exam {
   duration: number; // in minutes
   questions: Question[];
   instructions: string[];
+  status: ExamStatus; // Workflow status
+  ownerId: string;    // The lecturer who created it
 }
 
 export interface ExamSession {
