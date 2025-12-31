@@ -34,8 +34,8 @@ export interface Exam {
   duration: number; // in minutes
   questions: Question[];
   instructions: string[];
-  status: ExamStatus; // Workflow status
-  ownerId: string;    // The lecturer who created it
+  status: ExamStatus;
+  ownerId: string;
 }
 
 export interface ExamSession {

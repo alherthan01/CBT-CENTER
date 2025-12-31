@@ -18,9 +18,11 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
       <div className="container mx-auto px-4 flex justify-between items-center h-16">
         <div className="flex items-center gap-2">
           <Link to="/dashboard" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-green-800 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:scale-110 transition-transform">
-              AUS
-            </div>
+            <img 
+              src="https://www.au.edu.ng/wp-content/uploads/2021/04/logo.png" 
+              alt="AUSU Logo" 
+              className="w-10 h-10 object-contain group-hover:scale-110 transition-transform"
+            />
             <span className="hidden md:inline font-bold text-green-900">AUSU CBT</span>
           </Link>
         </div>

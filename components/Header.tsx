@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         {/* Logo positioned to the left */}
         <div className="md:absolute md:left-4 lg:left-8 flex-shrink-0 mb-4 md:mb-0">
           <img 
-            src="https://www.au.edu.ng/wp-content/uploads/2021/04/logo.png" 
+            src="https://www.au.edu.ng/wp-content/uploads/2021/04/logo.png"
             alt="Al'Istiqama University Logo" 
             className="w-16 h-16 md:w-24 md:h-24 object-contain drop-shadow-md brightness-0 invert"
           />
@@ -31,8 +31,7 @@ const Header: React.FC = () => {
           </div>
         </div>
         
-        {/* Hidden spacer to balance the flex layout on mobile if needed, 
-            but absolute positioning handles the centering on desktop */}
+        {/* Hidden spacer to balance the flex layout on mobile */}
         <div className="hidden md:block w-24 h-24 invisible"></div>
       </div>
     </header>
